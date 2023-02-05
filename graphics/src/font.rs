@@ -15,7 +15,7 @@ pub use font_kit::{
 /// A built-in fallback font, for convenience.
 #[cfg(feature = "font-fallback")]
 #[cfg_attr(docsrs, doc(cfg(feature = "font-fallback")))]
-pub const FALLBACK: &[u8] = include_bytes!("../fonts/Lato-Regular.ttf");
+pub const FALLBACK: &[u8] = include_bytes!("../fonts/SF-Pro-Display-Regular.otf");
 
 /// A built-in icon font, for convenience.
 #[cfg(feature = "font-icons")]
